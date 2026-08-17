@@ -1,0 +1,22 @@
+# Data (not distributed - download from Kaggle)
+*.csv
+*.zip
+
+# Notebook artifacts
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# LaTeX build artifacts
+report/*.aux
+report/*.log
+report/*.out
+report/*.toc
+report/*.synctex.gz
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Credentials
+kaggle.json
